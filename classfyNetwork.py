@@ -14,5 +14,5 @@ for url in f:
       start = netRef.get('startAddress')
       end = netRef.get('endAddress')
       print url, start, end
-  except urllib2.HTTPError, e:
-    print ''
+  except Exception:
+    pass
